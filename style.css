@@ -144,6 +144,12 @@ body {
 }
 
 @media only screen and (min-width: 1069px) {
+    .logo {
+        height: 6rem;
+        width: 11rem;
+    }
+
+
     .illustration {
         height: 35rem;
         width: 45rem;
@@ -155,14 +161,17 @@ body {
     }
 
     .info {
+        margin: 0;
         max-width: 400px;
     }
 
     .heading {
         font-size: 2rem;
+        max-width: 400px;
     }
 
     .para {
         font-size: 1rem;
+        max-width: 600px;
     }
 }
